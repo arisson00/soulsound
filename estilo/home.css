@@ -8,9 +8,11 @@ nav{
     display: flex;
     height: 100px;
 }
-
+.container-fluid{
+    background-color: black;
+}
 #conteinerform{
-
+    background-color: brown;
     justify-content: space-between;
 
 }
@@ -18,14 +20,22 @@ nav{
    margin-left: 40%;
 }
 #icnoneNav{
-   justify-content: end;
+    background-color: blueviolet;
+    /* justify-items: end; */
 }
-.nav-item{
-    padding-left: 5px;
-    padding-right: 5px;
+.navbar-nav {
+    justify-content: end;
 }
 /* fim da config da nav */
 
+/* titulo */
+#titulo{
+    padding-top: 5%;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+}
 /* inicio do config dos blocos de musica */
 #conteinercard{
     background-color: none;
@@ -36,7 +46,7 @@ nav{
 }
 h6{
     margin-left: 6%;
-    color: white; 
+    color: white;
 }
 img{
     border-radius: 10px;
@@ -56,3 +66,11 @@ img{
 }
 
 /* fim do config dos blocos de musica */
+
+/* inicio da config das musicas mais escutadas */
+#maisescutadas{ 
+    justify-content: center;
+    background-color: none;
+}
+
+/* fim da config das musicas mais escutadas */
