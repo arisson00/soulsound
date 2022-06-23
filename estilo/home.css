@@ -8,6 +8,9 @@ nav{
     display: flex;
     height: 100px;
 }
+.navbar-brand{
+    color: white;
+}
 .container-fluid{
     background-color: black;
 }
@@ -44,7 +47,7 @@ nav{
     justify-content: center;
     margin-left: 10%;
 }
-h6{
+h5{
     margin-left: 6%;
     color: white;
 }
@@ -67,10 +70,45 @@ img{
 
 /* fim do config dos blocos de musica */
 
-/* inicio da config das musicas mais escutadas */
+/* inicio da config dos artista que vc possa gostar */
+#conteinercard1{
+    background-color: none;
+    height: 400px;
+    padding-top: 1%;
+    justify-content: center;
+    margin-left: 10%;
+}
 #maisescutadas{ 
     justify-content: center;
     background-color: none;
 }
+#musica1{
+    height: 50px;
+    width: 215px;
+    height: 50px;
+}
+#musica2{
+    height: 50px;
+    width: 215px;
+    height: 50px;
+}
+#musica3{
+    height: 50px;
+    width: 215px;
+    height: 50px;
+}
+#musica4{
+    height: 50px;
+    width: 215px;
+    height: 50px;
+}
+.descricao1{
+    font-size: medium;
+    color: white;
+    text-decoration: none;
+}
+/* fim da config dos artista que vc possa gostar */
+
+/* inicio da config das musicas mais escutadas */
 
 /* fim da config das musicas mais escutadas */
