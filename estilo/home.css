@@ -2,10 +2,6 @@ body{
     background-color: black;
 }
 /* inicio do config da nav */
-header{
-    background-color: blueviolet;
-    height: 70px;
-}
 
 nav{
     background-color: aqua;
@@ -32,13 +28,14 @@ nav{
 
 /* inicio do config dos blocos de musica */
 #conteinercard{
-    background-color: violet;
+    background-color: none;
     height: 400px;
     padding-top: 5%;
     justify-content: center;
     margin-left: 10%;
 }
-h5{
+h6{
+    margin-left: 6%;
     color: white; 
 }
 img{
@@ -47,10 +44,10 @@ img{
 .row{
     margin-right: 2%;
     justify-content: end;
-    background-color: green;
+    background-color: none;
  }
 .card{
-    background-color: purple;
+    background-color: black;
 }
 .descricao{
     font-size: smaller;

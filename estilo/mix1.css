@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+/* inicio do config da nav */
+
+nav{
+    background-color: aqua;
+    display: flex;
+    height: 100px;
+}
+
+#conteinerform{
+
+    justify-content: space-between;
+
+}
+#pesquisa{
+   margin-left: 40%;
+}
+#icnoneNav{
+   justify-content: end;
+}
+.nav-item{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* fim da config da nav */
