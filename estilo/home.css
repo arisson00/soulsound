@@ -4,7 +4,7 @@ body{
 /* inicio do config da nav */
 
 nav{
-    background-color: aqua;
+    background-color: aliceblue;
     display: flex;
     height: 100px;
 }
@@ -12,10 +12,10 @@ nav{
     color: white;
 }
 .container-fluid{
-    background-color: black;
+    background-color: none;
 }
 #conteinerform{
-    background-color: brown;
+    background-color: none;
     justify-content: space-between;
 
 }
@@ -23,7 +23,7 @@ nav{
    margin-left: 40%;
 }
 #icnoneNav{
-    background-color: blueviolet;
+    background-color: none;
     /* justify-items: end; */
 }
 .navbar-nav {
@@ -41,7 +41,7 @@ nav{
 }
 /* inicio do config dos blocos de musica */
 #conteinercard{
-    background-color: none;
+    background-color: blue;
     height: 400px;
     padding-top: 5%;
     justify-content: center;
@@ -72,13 +72,13 @@ img{
 
 /* inicio da config dos artista que vc possa gostar */
 #conteinercard1{
-    background-color: none;
-    height: 400px;
+    background-color: tomato;
+    height: 350px;
     padding-top: 1%;
     justify-content: center;
     margin-left: 10%;
 }
-#maisescutadas{ 
+#artistasqvcpossagostar{ 
     justify-content: center;
     background-color: none;
 }
@@ -110,5 +110,20 @@ img{
 /* fim da config dos artista que vc possa gostar */
 
 /* inicio da config das musicas mais escutadas */
-
+#conteinercard2{
+    background-color: green;
+    height: 400px;
+    justify-content: center;
+    margin-left: 10%;
+}
 /* fim da config das musicas mais escutadas */
+
+/* inicio da config das musicas variadas */
+#conteinercard3{
+    background-color: brown;
+    height: 350px;
+    padding-top: 1%;
+    justify-content: center;
+    
+}
+/* fim da config das musicas variadas */
