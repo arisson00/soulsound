@@ -155,10 +155,8 @@ img{
     text-decoration: none;
     text-decoration: underline;
 }
-.img{
-    height: 50px;
-    width: 400px;
-    height: 50px;
+#img{
+    padding-left: 50%;
     justify-content: end;
 }
 /* Inicio do footer */
