@@ -19,12 +19,18 @@ nav{
     justify-content: space-between;
 
 }
+.bi bi-search{
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px red solid;
+}
 #pesquisa{
    margin-left: 40%;
 }
 #icnoneNav{
     background-color: none;
-    /* justify-items: end; */
+    justify-items: end;
 }
 .navbar-nav {
     justify-content: end;
@@ -121,14 +127,33 @@ img{
 /* inicio da config das musicas variadas */
 #conteinercard3{
     background-color: none;
-    height: 300px;
+    height: 600px;
     justify-content: center;
     margin-left: 18%;
 }
 /* fim da config das musicas variadas */
 
+/* Inicio do footer */
 #footer{
     display: flex;
     height: 100px;
     background-color: aliceblue;
 }
+.card1{
+    padding-left: 10px;
+    background-color: none;
+}
+.card2{
+    padding-left: 40px;
+    background-color: none;
+}
+.descricao1{
+    font-size: smaller;
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.img{
+    justify-content: end;
+}
+/* Inicio do footer */
