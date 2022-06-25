@@ -45,7 +45,8 @@ nav{
     text-align: center;
     color: white;
 }
-/* inicio do config dos blocos de musica */
+
+/* inicio do config das recomendações para vc */
 #conteinercard{
     background-color: none;
     height: 370px;
@@ -74,7 +75,7 @@ img{
     text-decoration: none;
 }
 
-/* fim do config dos blocos de musica */
+/* fim do config das recomendações para vc */
 
 /* inicio da config dos artista que vc possa gostar */
 #conteinercard1{
