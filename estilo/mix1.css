@@ -32,14 +32,27 @@ nav{
 }
 /* fim da config da nav */
 
-/* titulo */
-#titulo{
-    padding-top: 5%;
-    font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+/* inicio do aside */
+aside{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    position: absolute;
+}
+button{
+    text-emphasis-color: white;
+}
+#dropdown{
     color: white;
 }
+ul{
+    background-color: none;
+}
+#inicio{
+    text-decoration: underline;
+    font-size: large ;
+}
+/* fim do aside */
 
 /* inicio das config gerais */
 img{

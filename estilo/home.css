@@ -19,18 +19,12 @@ nav{
     justify-content: space-between;
 
 }
-.bi bi-search{
-  position: relative;
-  top: 0;
-  left: 0;
-  border: 1px red solid;
-}
 #pesquisa{
    margin-left: 40%;
 }
 #icnoneNav{
     background-color: none;
-    justify-items: end;
+    place-content: end;
 }
 .navbar-nav {
     justify-content: end;
