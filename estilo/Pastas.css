@@ -23,10 +23,8 @@ nav{
    margin-left: 40%;
 }
 #icnoneNav{
+    display: flex;
     background-color: none;
-    place-content: end;
-}
-.navbar-nav {
     justify-content: end;
 }
 /* fim da config da nav */
@@ -90,9 +88,53 @@ ul{
 
 /* incio das pastas */
 #conjpastas{
-    height: 500px;
+    color: white;
+    background-color: none;
+    height: 70px;
+    display: flex;
     margin-left: 20%;
     border-left: 1px solid white;
+    border: 2px solid white;
+    border-bottom: 3px dashed white;
+    justify-content: center;
+    padding-top: 15px;
+    
+}
+#teto{
+    color: rgb(179, 157, 157);
+    background-color: none;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 26px;
+    text-justify: bold;
+    text-decoration: underline whitesmoke;
+}
+#ladoteto{
+    color: white;
+    background-color: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#outroladoteto{
+    color: white;
+    background-color: none;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+#vazio{
+    color: white;
+    padding-top: 80px;
+    background-color: none;
+    height: 500px;
+    display: flex;
+    margin-left: 20%;
+    border-left: 1px solid white;
+    border: 2px solid white;
+    padding-left: 100px;
+}
+#leg{
+    padding-left: 15px;
 }
 /* fim das pastas */
 
