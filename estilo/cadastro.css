@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+/* inicio do config da nav */
+
+nav{
+    background-color: aliceblue;
+    display: flex;
+    height: 100px;
+}
+.navbar-brand{
+    color: white;
+}
+.container-fluid{
+    background-color: none;
+}
+#conteinerform{
+    background-color: none;
+    justify-content: space-between;
+
+}
+
+#pesquisa{
+   margin-left: 40%;
+}
+#icnoneNav{
+    background-color: none;
+    justify-items: end;
+}
+.navbar-nav {
+    justify-content: end;
+}
+/* fim da config da nav */
+
+/* inicio do aside */
+aside{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    position: absolute;
+}
+button{
+    text-emphasis-color: white;
+}
+#dropdown{
+    color: white;
+}
+ul{
+    background-color: none;
+}
+.inicio{
+    margin-left: 10px;
+    text-decoration: underline;
+    font-size: large ;
+}
+#id{
+    margin-top: 50px;
+}
+/* fim do aside */
+
+/* inicio das config gerais */
+img{
+    border-radius: 10px;
+}
+.descricao{
+    font-size: smaller;
+    color: white;
+    text-decoration: none;
+} 
+/* fim das config gerais */
+
+
+
+
+
+/* Inicio do footer */
+#footer{
+    display: flex;
+    height: 100px;
+    background-color: aliceblue;
+}
+.card1{
+    padding-left: 10px;
+    background-color: none;
+}
+.card2{
+    padding-left: 40px;
+    background-color: none;
+}
+.descricao1{
+    font-size: smaller;
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+}
+#img{
+    padding-left: 50%;
+    justify-content: end;
+}
+/* Fim do footer */

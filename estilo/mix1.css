@@ -48,9 +48,13 @@ button{
 ul{
     background-color: none;
 }
-#inicio{
+.inicio{
+    margin-left: 10px;
     text-decoration: underline;
     font-size: large ;
+}
+#id{
+    margin-top: 50px;
 }
 /* fim do aside */
 
@@ -99,7 +103,7 @@ img{
 
 /* incio dos boxe de musica */
 #conjdebox{
-    background-color: blue;
+    background-color: none;
     height: 1500px;
     margin-left: 20%;
     margin-bottom: 10%;
@@ -110,20 +114,38 @@ img{
     padding-top: 10px;
     background-color: none;
     border-radius: 7px;
-    width: 79%;
+    width: 85%;
     margin-top: 10px;
     background-color: rgb(215, 226, 235);
     margin-left: 2%;
-    overflow: inline;
 }
 .dentrobox{
-    background-color: blueviolet;
+    background-color: none;
+}
+.descricao2{
+    background-color: none;
+    font-size: smaller;
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+    padding-left: 60px;
 }
 .edit{
     margin-left: 5%;
 }
 .edicao{
-    margin-left: 80%;
+    border-color: white;
+    color: black;
+    margin-left: 40%;
+}
+.edite{
+    margin-left: 20px;
+    color: black;
+}
+.indit{
+    color: black;
+    font-size: medium;
+    margin-left: 20px;
 }
 /* fim dos boxe de musica */
 

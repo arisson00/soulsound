@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/mix1.css">
-    <title>Album: Seu Jorge; Kendrick Lamar; Baco Exu; Tiler the Crietor</title>
+    <link rel="stylesheet" href="estilo/cadastro.css">
+    <title>Album: Melanie Martinez</title>
 </head>
 <body>
   <header>
@@ -61,22 +61,22 @@
 
 <!-- INICIO DO ASIDE -->
 <aside style="float: left">
-  <div>
-    <div id="inicio">
+  <div id="in">
+    <div class="inicio">
       <a class="descricao" href="home.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note" viewBox="0 0 16 16">
         <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
         <path fill-rule="evenodd" d="M9 3v10H8V3h1z"/>
         <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"/>
       </svg>INICIO</a>
     </div>
-      <div id="inicio">
+      <div class="inicio">
         <a class="descricao" href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
           <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
           <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0v5zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3z"/>
         </svg>PODCASTS</a>
       </div>
 
-      <div class="dropdown">
+      <div class="inicio" class="dropdown">
         <button id="dropdown" class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-collection-play" viewBox="0 0 16 16">
             <path d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1zm2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848l-4-2.5z"/>
@@ -104,172 +104,88 @@
 </aside>
 <!-- FIM DO ASIDE -->
 
-<!-- INICIO DO CABEÇALHO -->
-<div id="cabecalho">
-  <img id="album" src="imagens/albuns/album 3.jpeg" width="150" height="150" alt="">
-  <div id="descricaocabecalho">
-    <h1>Recomendações:</h1>
-    <div id="recomendacao">
-      <h5>Sia; Katty Perry; Billie Eilish; Aurora</h5>
-    </div>
-  </div>
-</div>
-
-<!-- FIM DO CABEÇALHO -->
-
-<!-- INICIO DOS BOXES DE MUSICAS -->
-<div id="conjdebox">
-  <div class="box">
-    <div class="dentrobox" style="width: 90%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"> 
-      <div>
-        <img class="imgboxes" src="imagens/artistas/image247.jpg" width="40" height="40" alt=""> 
-        <button class="edicao"  type="button" id="dropdownMenuButton1" aria-expanded="false">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
-          </svg>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="Suas_pastas.html">Adicionar aos Favoritos</a></li>
-          <li><a class="dropdown-item" href="Suas_pastas.html">Baixar</a></li>
-          <li><a class="dropdown-item" href="Suas_pastas.html">Adicionar a uma Playlist</a></li>
-        </ul>
-
-      <svg class="edite" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
-        <path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
-      </svg>
-
-      <svg class="indit" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-        <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-      </svg>
+<!-- INICIO DA AREA DE CADASTRO -->
+<div id>
+<form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-4 position-relative">
+      <label for="validationTooltip01" class="form-label">First name</label>
+      <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+      <div class="valid-tooltip">
+        Looks good!
       </div>
     </div>
-  </div>  
-
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image246.jpg" width="40" height="40" alt="">
+    <div class="col-md-4 position-relative">
+      <label for="validationTooltip02" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
     </div>
-    <div><p>xdfvgbjhnkmk,</p></div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image248.jpg" width="40" height="40" alt="">
+    <div class="col-md-4 position-relative">
+      <label for="validationTooltipUsername" class="form-label">Username</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+        <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+        <div class="invalid-tooltip">
+          Please choose a unique and valid username.
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-    <img class="imgboxes" src="imagens/artistas/image249.jpg" width="40" height="40" alt="">
-  </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image247.jpg" width="40" height="40" alt="">
+    <div class="col-md-6 position-relative">
+      <label for="validationTooltip03" class="form-label">City</label>
+      <input type="text" class="form-control" id="validationTooltip03" required>
+      <div class="invalid-tooltip">
+        Please provide a valid city.
+      </div>
     </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image248.jpg" width="40" height="40" alt="">
+    <div class="col-md-3 position-relative">
+      <label for="validationTooltip04" class="form-label">State</label>
+      <select class="form-select" id="validationTooltip04" required>
+        <option selected disabled value="">Choose...</option>
+        <option>...</option>
+      </select>
+      <div class="invalid-tooltip">
+        Please select a valid state.
+      </div>
     </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image246.jpg" width="40" height="40" alt="">
+    <div class="col-md-3 position-relative">
+      <label for="validationTooltip05" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="validationTooltip05" required>
+      <div class="invalid-tooltip">
+        Please provide a valid zip.
+      </div>
     </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image247.jpg" width="40" height="40" alt="">
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
     </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image249.jpg" width="38" height="40" alt="">
-    </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image247.jpg" width="40" height="40" alt="">
-    </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image248.jpg" width="40" height="40" alt="">
-    </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image246.jpg" width="40" height="40" alt="">
-    </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image247.jpg" width="40" height="40" alt="">
-    </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image249.jpg" width="38" height="40" alt="">
-    </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image246.jpg" width="38" height="40" alt="">
-    </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image248.jpg" width="38" height="40" alt="">
-    </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image246.jpg" width="40" height="40" alt="">tgfrd</a>
-    </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image248.jpg" width="38" height="40" alt="">
-    </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image246.jpg" width="38" height="40" alt="">
-    </div>
-  </div>
-  <div class="box">
-    <div style="width: 5%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="50"> 
-      <img class="imgboxes" src="imagens/artistas/image249.jpg" width="38" height="40" alt="">
-    </div>
-  </div>
-
+  </form>
 </div>
-<!-- FIM DOS BOXES DE MUSICAS -->
+<!-- FIM DA AREA DE CADASTRO -->
 
 <!-- INICIO DO FOOTER -->
 <div id="footer">
-  <div class="card1">
-      <a class="descricao1" href="#" class="btn btn-primary">Sobre nós</a>
-      <div class="card1">
-        <a class="descricao1" href="#" class="btn btn-primary">Fale conosco</a>
-        <div class="card1">
-          <a class="descricao1" href="#" class="btn btn-primary">Saiba mais</a>
-        </div>
-      </div>
-  </div>
-  <div class="card2">
-    <a class="descricao1" href="#" class="btn btn-primary">Cadastre-se aqui</a>
     <div class="card1">
-      <a class="descricao1" href="#" class="btn btn-primary">Reclamações</a>
+        <a class="descricao1" href="#" class="btn btn-primary">Sobre nós</a>
+        <div class="card1">
+          <a class="descricao1" href="#" class="btn btn-primary">Fale conosco</a>
+          <div class="card1">
+            <a class="descricao1" href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+    </div>
+    <div class="card2">
+      <a class="descricao1" href="#" class="btn btn-primary">Cadastre-se aqui</a>
+      <div class="card1">
+        <a class="descricao1" href="#" class="btn btn-primary">Reclamações</a>
+      </div>
+    </div>
+    <div>
+      <a id="img" class="navbar-brand" href="home.html"><img src="imagens/logo.png" width="50px" height="50px" alt=""></a>
     </div>
   </div>
-  <div>
-    <a id="img" class="navbar-brand" href="home.html"><img src="imagens/logo.png" width="50px" height="50px" alt=""></a>
-  </div>
-</div>
-<!-- FIM DO FOOTER -->
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!-- FIM DO FOOTER -->
   
-</body>
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+  </body>
+  </html>
