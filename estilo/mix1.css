@@ -99,8 +99,8 @@ img{
 
 /* incio dos boxe de musica */
 #conjdebox{
-    background-color: none;
-    height: 1000px;
+    background-color: blue;
+    height: 1500px;
     margin-left: 20%;
     margin-bottom: 10%;
     border-left: 2px solid white;
@@ -114,8 +114,17 @@ img{
     margin-top: 10px;
     background-color: rgb(215, 226, 235);
     margin-left: 2%;
+    overflow: inline;
 }
-
+.dentrobox{
+    background-color: blueviolet;
+}
+.edit{
+    margin-left: 5%;
+}
+.edicao{
+    margin-left: 80%;
+}
 /* fim dos boxe de musica */
 
 
